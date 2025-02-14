@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: 'Playfair Display', serif; fill: #ffffff; }
+        .icon { fill: #e67e22; }
+    </style>
+    <path class="icon" d="M15 10 L25 5 L35 10 L35 30 L25 35 L15 30 Z" />
+    <text x="45" y="25" class="text" font-size="16">Deep Dark</text>
+</svg> 

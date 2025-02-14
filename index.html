@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Dark Games - 创意桌游工作室</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <img src="assets/logo.svg" alt="Deep Dark Games" class="logo-img">
+            </a>
+            <nav class="nav">
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="/games" data-page="games">游戏</a></li>
+                    <li><a href="/blog" data-page="blog">博客</a></li>
+                    <li><a href="/about" data-page="about">关于</a></li>
+                    <li class="lang-switch">
+                        <button class="theme-toggle">🌓</button>
+                        <a href="?lang=en" data-lang="en">EN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container" id="content">
+            <!-- Markdown content will be loaded here -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank" rel="noopener">Discord</a>
+                <a href="#" target="_blank" rel="noopener">Twitter</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <p class="copyright">© 2025 - Deep Dark Games • <a href="/privacy">Privacy</a> • <a href="/cookies">Cookies</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html> 
+ 

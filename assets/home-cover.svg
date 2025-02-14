@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .bg { fill: #2c3e50; }
+        .mech { fill: #e67e22; }
+        .kaiju { fill: #c0392b; }
+        .text { font-family: 'Playfair Display', serif; fill: #ffffff; }
+    </style>
+    <rect class="bg" width="800" height="400" />
+    <path class="mech" d="M200 150 L300 100 L400 150 L400 300 L300 350 L200 300 Z" />
+    <path class="kaiju" d="M500 150 C600 100 700 100 700 200 C700 300 600 350 500 300 Z" />
+    <text x="50" y="100" class="text" font-size="48">HOME</text>
+    <text x="50" y="150" class="text" font-size="32">MECH × KAIJU</text>
+</svg> 

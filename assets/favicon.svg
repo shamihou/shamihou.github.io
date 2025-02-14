@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .hex { fill: #2c3e50; }
+        .hex-inner { fill: #e67e22; }
+    </style>
+    <path class="hex" d="M16 2 L30 9 L30 23 L16 30 L2 23 L2 9 Z" />
+    <path class="hex-inner" d="M16 7 L24 11 L24 19 L16 23 L8 19 L8 11 Z" />
+</svg> 
